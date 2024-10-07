@@ -12,3 +12,5 @@ config.json
 !important.tmp
 
 .DS_Store
+
+.godot
