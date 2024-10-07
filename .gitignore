@@ -1,16 +1,17 @@
-# 忽略所有 .log 檔案
-*.log
+# Godot 4+ specific ignores
+.godot/
 
-# 忽略 build 目錄
-build/
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
 
-# 忽略 config.json 檔案
-config.json
+# Imported translations (automatically generated from CSV files)
+*.translation
 
-# 忽略所有 .tmp 檔案，但不忽略 important.tmp
-*.tmp
-!important.tmp
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
 
 .DS_Store
-
-.godot
