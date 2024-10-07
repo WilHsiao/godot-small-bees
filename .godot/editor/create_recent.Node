@@ -1,0 +1,15 @@
+TextureRect
+TextureButton
+CenterContainer
+CanvasLayer
+Label
+ProgressBar
+HBoxContainer
+MarginContainer
+VisibleOnScreenNotifier2D
+CollisionShape2D
+Sprite2D
+Area2D
+Timer
+AnimationPlayer
+AnimatedSprite2D

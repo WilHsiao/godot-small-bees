@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=3 uid="uid://cdo6i4chenwkx"]
+
+[ext_resource type="FontFile" uid="uid://bdi2v7yrnvude" path="res://scenes/UI/ThaleahFat.ttf" id="1_ckbj0"]
+[ext_resource type="Script" path="res://scenes/UI/ui.gd" id="1_jldl5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iqo74"]
+bg_color = Color(0.700275, 0.944603, 0.946649, 1)
+skew = Vector2(0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k01u1"]
+bg_color = Color(1.73271e-06, 0.680917, 0.725259, 1)
+skew = Vector2(0.6, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.8, 0.8, 0)
+
+[node name="UI" type="MarginContainer"]
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+script = ExtResource("1_jldl5")
+metadata/_edit_group_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="ShieldBar" type="ProgressBar" parent="HBoxContainer"]
+custom_minimum_size = Vector2(160, 10)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/background = SubResource("StyleBoxFlat_iqo74")
+theme_override_styles/fill = SubResource("StyleBoxFlat_k01u1")
+value = 100.0
+show_percentage = false
+
+[node name="ScoreLabel" type="Label" parent="HBoxContainer"]
+custom_minimum_size = Vector2(53, 16)
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource("1_ckbj0")
+theme_override_font_sizes/font_size = 13
+text = "00009999"
+horizontal_alignment = 2
+vertical_alignment = 2

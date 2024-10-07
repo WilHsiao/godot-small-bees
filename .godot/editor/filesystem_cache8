@@ -1,0 +1,41 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1728294051
+export_presets.cfg::TextFile::-1::1726655153::0::1::::<><>::
+icon.svg::CompressedTexture2D::2866124700820042190::1725446531::1725446535::1::::<><>::
+README.md::TextFile::-1::1726895700::0::1::::<><>::
+::res://assets/::1725447883
+::res://resources/::1725447890
+::res://scenes/::1725964207
+::res://scenes/background/::1728103836
+background.tscn::PackedScene::8797797947064580428::1728103836::0::1::::<><>::uid://do7bcowmnld4o::::res://scenes/background/Space_BG (2 frames) (64 x 64).png
+Space_BG (2 frames) (64 x 64).png::CompressedTexture2D::8208031008597879068::1725948055::1725948056::1::::<><>::
+::res://scenes/bullet/::1728103837
+bullet.gd::GDScript::-1::1728103834::0::1::::<>Area2D<>::
+bullet.tscn::PackedScene::2745921501171270632::1728103837::0::1::::<><>::res://scenes/bullet/bullet.gd<>uid://nwc27ndphjky::::res://scenes/bullet/Player_beam (16 x 16).png
+Player_beam (16 x 16).png::CompressedTexture2D::958042629291000408::1725698836::1725947967::1::::<><>::
+::res://scenes/enemy/::1728103837
+Bon_Bon (16 x 16).png::CompressedTexture2D::5565215772770451049::1725951168::1725951168::1::::<><>::
+enemy.gd::GDScript::-1::1726906410::0::1::::<>Area2D<>::
+enemy.tscn::PackedScene::4497092043548078777::1728103837::0::1::::<><>::res://scenes/enemy/enemy.gd<>uid://clj3j5biu6ky0::::res://scenes/enemy/Bon_Bon (16 x 16).png<>uid://ed7386hxo1kb::::res://scenes/enemy/Explosion (16 x 16).png
+Explosion (16 x 16).png::CompressedTexture2D::288943235321028797::1725952647::1725952660::1::::<><>::
+::res://scenes/enemy_bullet/::1728103837
+enemy_bullet.gd::GDScript::-1::1726655153::0::1::::<>Area2D<>::
+enemy_bullet.tscn::PackedScene::4136349807214764172::1728103837::0::1::::<><>::uid://csf61ve2lrw1i::::res://scenes/enemy_bullet/Enemy_projectile (16 x 16).png<>res://scenes/enemy_bullet/enemy_bullet.gd<>res://scenes/enemy_bullet/visible_on_screen_notifier_2d.gd
+Enemy_projectile (16 x 16).png::CompressedTexture2D::6048492209470092908::1725956338::1725956339::1::::<><>::
+visible_on_screen_notifier_2d.gd::GDScript::-1::1725956461::0::1::::<>VisibleOnScreenNotifier2D<>::
+::res://scenes/main/::1728103837
+main.gd::GDScript::-1::1725972504::0::1::::<>Node2D<>::
+main.tscn::PackedScene::1934289087767616927::1728103837::0::1::::<><>::res://scenes/main/main.gd<>uid://dxlypgrtl4pn5::::res://scenes/background/background.tscn<>uid://yykvlapgbrxn::::res://scenes/player/player.tscn<>uid://cdo6i4chenwkx::::res://scenes/UI/ui.tscn<>uid://c4idliwvoyn4::::res://scenes/UI/START (48 x 8).png<>uid://kxsmvlfoclut::::res://scenes/UI/GAME_OVER (72 x 8).png
+::res://scenes/player/::1728103837
+Boosters (16 x 16).png::CompressedTexture2D::7679536074796894153::1641868502::1725947976::1::::<><>::
+Boosters_left (16 x 16).png::CompressedTexture2D::8898640154287759580::1641868490::1725947976::1::::<><>::
+Boosters_right (16 x 16).png::CompressedTexture2D::8681700786465482082::1641868514::1725947976::1::::<><>::
+player.gd::GDScript::-1::1725972504::0::1::::<>Area2D<>::
+player.tscn::PackedScene::1734722563456340007::1728103837::0::1::::<><>::res://scenes/player/player.gd<>uid://crc03iydi8lnp::::res://scenes/player/Player_ship (16 x 16).png<>uid://bfee6qnfe2grw::::res://scenes/bullet/bullet.tscn<>uid://dhoa3p0v5pdw0::::res://scenes/player/Boosters (16 x 16).png<>uid://dy1tkksj4v4y7::::res://scenes/player/Boosters_left (16 x 16).png<>uid://dvxqlxer3u083::::res://scenes/player/Boosters_right (16 x 16).png
+Player_ship (16 x 16).png::CompressedTexture2D::5971748849199785181::1641868418::1725947976::1::::<><>::
+::res://scenes/UI/::1728103837
+GAME_OVER (72 x 8).png::CompressedTexture2D::750484580349533239::1725970369::1725970369::1::::<><>::
+START (48 x 8).png::CompressedTexture2D::200736326611152439::1725970075::1725970075::1::::<><>::
+ThaleahFat.ttf::FontFile::2615180815729507538::1725964300::1725964300::1::::<><>::
+ui.gd::GDScript::-1::1725968358::0::1::::<>MarginContainer<>::
+ui.tscn::PackedScene::5014207226574828747::1728103837::0::1::::<><>::uid://bdi2v7yrnvude::::res://scenes/UI/ThaleahFat.ttf<>res://scenes/UI/ui.gd
